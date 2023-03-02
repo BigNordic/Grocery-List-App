@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width" initial-scale=1>
+  <title>Grocery List App</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="icon" href="plus-svgrepo-com.svg">
+</head>
+
+<body>
+<h1 id="header">Grocery List:</h1>
+<div class="container">
+<img onclick = "callBoth()"; 
+src = "plus-svgrepo-com.svg"
+alt = "plus sign svg"
+height = "80px"
+width = "80px"
+id="plusSign"
+/>
+<input type="text" id="input" placeholder="Input the item you need" onclick="clearInput()">
+</div>
+<section id="section" class="container"></section>
+<button id="delAll">Delete All</button>
+  <script src="script.js"></script>
+
+</body>
+
+</html>
+

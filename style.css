@@ -1,0 +1,97 @@
+p{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    width: fit-content;
+}
+
+p:hover{
+    text-decoration: line-through;
+}
+
+#input{
+    width: 220px;
+    height: 45px;
+    border: 2px solid coral;
+    border-radius: 10px;
+    margin-left: 1em;
+    padding: 2px 4px;
+    box-sizing: border-box;
+    transition: width 0.4s ease-in-out;
+}
+
+input,
+input::placeholder{
+    font-size: 20px;
+}
+
+#input:focus {
+    width: 40%;
+  }
+
+#header{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    font-size: 80px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:cornflowerblue;
+    border: 2px solid coral;
+    border-radius: 10px;
+    background-color:blanchedalmond;
+    width:fit-content; 
+}
+
+body{
+    background-color:lightblue;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.numInput{
+    height: 30px;
+    width: 40px;
+    border: 2px solid coral;
+    border-radius: 10px;
+    margin-left: 1em;
+    box-sizing: border-box;
+}
+
+#delAll{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    font-size: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:cornflowerblue;
+    border: 2px solid coral;
+    border-radius: 10px;
+    background-color:blanchedalmond;
+    height: 50px;
+    width: 300px;
+    transition: width 0.4s, height 0.4s, font-size 0.4s, color 0.4s, background-color 0.4s;
+}
+
+#delAll:hover{
+    color:rgb(44, 110, 233);
+    background-color: rgb(255, 223, 175);
+    font-size: 35px;
+    height: 60px;
+    width: 340px;
+}
